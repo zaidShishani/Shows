@@ -5,6 +5,7 @@ alert("hey, wlecome to my website " + name )
 
 var showType = prompt("what type of shows do you like :D(action, comedy, mind bending)")
 
+function userShow(showType){
 
 while(showType != "action" && showType != "comedy" && showType != "mind bending")
 
@@ -37,3 +38,7 @@ document.write(
 else{
   alert('no Recommendation for this genre');
 }
+
+}
+
+userShow(showType);
