@@ -16,7 +16,6 @@ while(numOfT > 10 ){
   numOfT = prompt("please enter number less than 10!")
 }
 
---------------------------
 if(showType == "action"){
 for(var i = 0; i<numOfT; i++){
 document.write(
